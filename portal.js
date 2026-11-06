@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     lucide.createIcons();
 
     // Pointing to the new public portal router
-    const API_BASE = "https://ispconnect-backend.onrender.com/api/portal";
+    const API_BASE = 'https://ispconnect-backend.onrender.com/api/portal';
     let selectedPackageId = null;
 
     const packagesContainer = document.getElementById('packagesContainer');
