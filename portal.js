@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     lucide.createIcons();
 
     // Pointing to the new public portal router
-    const API_BASE = 'https://sushi-unharmed-landing.ngrok-free.dev/api/portal';
+    const API_BASE = "https://ispconnect-backend.onrender.com/api/portal";
     let selectedPackageId = null;
 
     const packagesContainer = document.getElementById('packagesContainer');
