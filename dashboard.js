@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // --- 6. DATA ENGINE & FETCH ---
-    const API_BASE = 'http://127.0.0.1:8000/api/admin';
+    const API_BASE = 'https://ispconnect-backend.onrender.com/api/admin';
 
     function updateKPI(id, dataArray, formatAsCurrency = false) {
         if (!dataArray || dataArray.length < 2) return;
