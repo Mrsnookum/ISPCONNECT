@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // --- CUSTOMERS LOGIC ---
-    const API_BASE = 'http://127.0.0.1:8000/api/admin';
+    const API_BASE = 'https://ispconnect-backend.onrender.com/api/admin';
     let allCustomers = [];
     let currentFilter = 'all';
 
